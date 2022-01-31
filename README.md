@@ -27,3 +27,6 @@
 
 - Primer paso: Input para ingresar datos.
 - Segundo paso: Botón para quitar el último dato.
+- Tercer paso: Tomar los datos y hacerlos visibles al usuario.
+- Cuarto paso: usar los datos en las funciones establecidas.
+- Quinto paso: mostrar el resultado en la pantalla.
