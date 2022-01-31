@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media, moda y mediana</title>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <div class="container">
+        <header class="menu_container">
+            <nav class="menu_nav_container">
+                <a href="./index.html"><img src="https://cdn-icons.flaticon.com/png/512/3153/premium/3153038.png?token=exp=1642900558~hmac=2ccaffc44f4ad17482cf851aa3813364" alt="icono"></a>
+                <ul>
+                    <li><a href="/figuras.html">Taller 1</a></li>
+                    <li><a href="./descuentos.html">Taller 2</a></li>
+                    <li><a href="/promedio.html">Taller 3</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <h1 class="main-title">
+                Media, moda y mediana
+            </h1>
+            <section class="card">
+                <figure class="card-img-container">
+                    <img src="https://images.pexels.com/photos/3806753/pexels-photo-3806753.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="descuento">
+                </figure>
+                <div class="card-text-container">
+                    <h2>Calcula la moda, media y mediana en una sola página.</h2>
+                </div>
+                <form action="" class="form-container">
+                    <label class="label" for="inputPrice">Escribe los valores uno a uno en el siguiente campo:</label>
+                    <input class="input" type="number" id="inputData" placeholder="Datos">
+
+                    <div class="button-container">
+                        <button class="button button-margin-left" type="button" onclick="onClicAgregarDatos()">Agregar</button>
+                        <button class="button button-margin-left" type="button" onclick="onClicQuitarDatos()">Eliminar último dato</button>
+                    </div>
+
+                    <p class="data" id="imprimirDatos"></p>
+
+                    <button class="button" type="button" onclick="onClickCalcularMMM()">Calcular</button>
+
+                    <p class="result" id="resultMMM">Resultado</p>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <section>
+                <p>Todos los derechos reservados</p>
+            </section>
+            <section class="social-container">
+                <a href="https://twitter.com/IKevinmejia"><img src="https://cdn-icons.flaticon.com/png/512/2673/premium/2673638.png?token=exp=1643077633~hmac=1a63767be0419f3110c69edc58f94cd5" alt="Twitter"></a>
+                <a href="https://www.instagram.com/ikevinmejia/"><img src="https://cdn-icons.flaticon.com/png/512/2673/premium/2673870.png?token=exp=1643077642~hmac=4c23b6718cd51567515e1138e8140851" alt="Instagram"></a>
+                <a href="https://github.com/ikevinmejia/practico-javascript"><img src="https://cdn-icons.flaticon.com/png/512/2673/premium/2673859.png?token=exp=1643076822~hmac=0b797b6750a5fa75ad92b85bde2365a7" alt="GitHub"></a>
+            </section>
+        </footer>
+    </div>
+    <script src="./promedio.js"></script>
+</body>
+</html>
